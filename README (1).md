@@ -11,14 +11,18 @@ This program is  for a token smart contract that implements the ability to burn 
 
 To run this program, you can use Remix.
 
-```javascript
-pragma solidity ^0.8.4;
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello World!";
-    }
-}
+
+contract MyToken {
+
+ // public variables here
+  string public tokenName = "ORION"; 
+  string public tokenAbbry = "ORI"; 
+  uint public totalSupply = 0
+
 
 ```
 
