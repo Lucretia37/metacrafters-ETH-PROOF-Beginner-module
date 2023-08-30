@@ -1,18 +1,16 @@
 # My Token
 
-This repository contains the source code for a token smart contract that implements the ability to burn (destroy) and mint (create) tokens on a blockchain network. The smart contract is designed to offer increased flexibility and control over the token supply by allowing users to remove tokens from circulation (burn) or create new tokens (mint) based on specific conditions.
+
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
+This program is  for a token smart contract that implements the ability to burn (destroy) and mint (create) tokens on a blockchain network. The smart contract is designed to offer increased flexibility and control over the token supply by allowing users to remove tokens from circulation (burn) or create new tokens (mint) based on specific conditions.
 
 ## Getting Started
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
-
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+To run this program, you can use Remix, an online Solidity IDE.  
 
 ```javascript
 pragma solidity ^0.8.4;
