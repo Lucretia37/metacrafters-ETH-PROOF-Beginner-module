@@ -12,13 +12,16 @@ This repository contains the source code for a token smart contract that impleme
 To run this program, you can use Remix, an online Solidity IDE. 
 
 ```javascript
-pragma solidity ^0.8.4;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello World!";
-    }
-}
+
+contract MyToken {
+
+ // public variables here
+  string public tokenName = "ORION"; 
+  string public tokenAbbry = "ORI"; 
+  uint public totalSupply = 0;
 
 ```
 
