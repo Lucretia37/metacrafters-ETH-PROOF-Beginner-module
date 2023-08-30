@@ -1,7 +1,6 @@
 # My Token
 
-
-
+The orion (ORI) token smart contract is developed using Solidity .
 ## Description
 
 This program is  for a token smart contract that implements the ability to burn (destroy) and mint (create) tokens on a blockchain network. The smart contract is designed to offer increased flexibility and control over the token supply by allowing users to remove tokens from circulation (burn) or create new tokens (mint) based on specific conditions.
@@ -10,7 +9,7 @@ This program is  for a token smart contract that implements the ability to burn 
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE.  
+To run this program, you can use Remix.
 
 ```javascript
 pragma solidity ^0.8.4;
