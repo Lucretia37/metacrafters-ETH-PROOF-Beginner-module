@@ -1,28 +1,27 @@
-# My Token
+# Hello World
 
-The orion (ORI) token smart contract is developed using Solidity .
+This Solidity program is a simple "Hello World" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
+
 ## Description
 
-This program is  for a token smart contract that implements the ability to burn (destroy) and mint (create) tokens on a blockchain network. The smart contract is designed to offer increased flexibility and control over the token supply by allowing users to remove tokens from circulation (burn) or create new tokens (mint) based on specific conditions.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
 
 ## Getting Started
 
 ### Executing program
 
-To run this program, you can use Remix.
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
 
 ```javascript
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.4;
 
-
-contract MyToken {
-
- // public variables here
-  string public tokenName = "ORION"; 
-  string public tokenAbbry = "ORI"; 
-  uint public totalSupply = 0
-
+contract HelloWorld {
+    function sayHello() public pure returns (string memory) {
+        return "Hello World!";
+    }
+}
 
 ```
 
