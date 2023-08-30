@@ -11,7 +11,7 @@ This program is  for a token smart contract that implements the ability to burn 
 
 To run this program, you can use Remix.
 
-```
+```javascript
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
