@@ -25,11 +25,11 @@ contract MyToken {
 
 ```
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+To compile the code, go to any solidity compiler .  
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
+Once the code undergoes the compilation process, you can initiate the deployment of the contract by navigating to the "Deploy & Run Transactions" tab present in the left-hand sidebar. From the dropdown menu, choose the "MyToken" contract, and then activate the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
+Upon the successful deployment of the contract, you gain the ability to engage with its functionalities by invoking the "burn" and "mint" functions. Locate the "MyToken" contract within the left-hand sidebar, and proceed to select the desired function—either "burn" or "mint." Finally, execute the function by activating the "transact" button, resulting in the execution of the function and the retrieval of pertinent outcomes associated with the "MyToken" contract's burn and mint features.
 
 ## Authors
 
